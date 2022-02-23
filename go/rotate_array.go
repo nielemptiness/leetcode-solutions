@@ -18,7 +18,7 @@ func rotate(nums []int, k int) []int {
 	return nums
 }
 
-func main() {
+func test() {
 	arr := []int{1, 2, 3, 4, 5, 6, 7}
 	count := 3
 	res := rotate(arr, count)
