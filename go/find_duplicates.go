@@ -16,7 +16,7 @@ func containsDuplicate(nums []int) bool {
 	return false
 }
 
-func main() {
+func duplicates() {
 	inp := []int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}
 	res := containsDuplicate(inp)
 
