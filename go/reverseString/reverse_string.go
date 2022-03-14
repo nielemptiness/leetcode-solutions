@@ -1,10 +1,10 @@
-package main
+package reverseString
 
 import (
 	"fmt"
 )
 
-func reverseString(s []string) {
+func ReverseString(s []string) {
 	i, j := 0, len(s)-1
 	for i < j {
 		s[i], s[j] = s[j], s[i]
@@ -13,8 +13,8 @@ func reverseString(s []string) {
 	}
 }
 
-func main() {
+func Reverse() {
 	input := []string{"h", "e", "l", "l", "o"}
-	reverseString(input)
+	ReverseString(input)
 	fmt.Println(input)
 }
