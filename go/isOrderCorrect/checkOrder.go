@@ -1,6 +1,6 @@
-package IsOrderCorrect
+package isOrderCorrect
 
-func isValid(s string) bool {
+func IsValid(s string) bool {
 	st := []rune{}
 	bracketsMap := map[rune]rune{
 		')': '(',
