@@ -2,17 +2,13 @@ package main
 
 import (
 	"fmt"
-	ua "radioemptinessgoleetcode/IsOrderCorrect"
 )
 
 func main() {
-	var input = "()[]{}"
-	res := ua.IsValid(input)
+	input := "PAYPALISHIRING"
 
-	fmt.Println(res)
-
-	var inp2 = "(]"
-	res2 := ua.IsValid(inp2)
-
-	fmt.Println(res2)
+	res := convert(input, 3)
+	fmt.Println("Input is: " + input)
+	fmt.Println("Res == " + res)
+	fmt.Println("Is valid: ", res == "PAHNAPLSIIGYIR")
 }
