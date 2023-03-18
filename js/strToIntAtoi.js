@@ -21,4 +21,3 @@ var myAtoi = (s) => {
 };
 
 console.log(myAtoi("21474836460"));
-
